@@ -1,6 +1,5 @@
 <?php 
 
-add_filter('pre_get_posts','mySearchFilter');
 
 function ct_tracks_excerpt_read_more_link2($output) {
 		remove_filter('the_excerpt', 'ct_tracks_excerpt_read_more_link');
@@ -24,7 +23,7 @@ remove_filter('the_excerpt', 'ct_tracks_excerpt_read_more_link');
 
     // filter the link on excerpts
    
-		
+	
 	
 	
 

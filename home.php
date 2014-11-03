@@ -120,8 +120,6 @@ if( function_exists( 'is_bbpress' ) ) {
         ct_tracks_post_navigation();
     }
 
-} else {
-    ct_tracks_post_navigation();
 }
 
 ?>

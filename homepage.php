@@ -5,8 +5,8 @@
 // get user's comment display setting
 $comments_display = get_theme_mod('ct_tracks_comments_setting');
 
-
-echo '<h1 class=\'entry-title\'>I\'m Eric. I build great Web sites. hey</h1>';
+echo '<div class="home-archive">';
+echo '<h1 class=\'entry-title\'>I\'m Eric. I build great Web sites. </h1>';
 // The loop
 
 
@@ -122,8 +122,7 @@ if( function_exists( 'is_bbpress' ) ) {
 
 }
 
+echo '</div>';
 ?>
 
 <?php get_footer(); ?>
-         
- 

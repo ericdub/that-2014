@@ -8,7 +8,13 @@ Template: tracks
 
 @import url('../tracks/style.css');
 
-.tribe-events-venue-details address {
- padding: inherit; 
- background: #FFF; 
+.main .home-archive{
+width: 88.89%;
+max-width: 1280px;
+margin: 0 auto;
+}
+
+.home-archive .featured-image {
+margin-top: 0em; 
+margin-bottom: 0em; 
 }
